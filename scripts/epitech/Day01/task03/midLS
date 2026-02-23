@@ -1,0 +1,4 @@
+echo first arg: $1
+echo arguments:  $@
+echo total arg: $#
+ls -m -p $@ 
