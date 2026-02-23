@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Mes supers Lab GNS3"
 ---
 # 🌐 Labs Réseaux – GNS3
 
@@ -24,7 +24,7 @@ Les labs étaient conçus pour recréer des environnements réseau complets en u
 
 | Vue | Exemple | Lab concerné |
 |-----|---------|--------------|
-| Configuration du serveur DHCP | ![Config](../../.captures/gns3/dhcp_conf.png) | **Lab 2** |
+| Configuration du serveur DHCP | ![Config]({{ site.baseurl }}/.captures/gns3/dhcp_conf.png) | **Lab 2** |
 | Demande d'une adresse IP par le client | ![IP](../../.captures/gns3/lab2_get_dhcp.png) | **lab2** |
 | Test de connectivité entre LAN1 et LAN2 (`ping`) | ![Ping](../../.captures/gns3/ping-lan1-lan2.png) | **Lab 2** |
 | Interception d'une trame HTTP contenant une authentification (`tcpdump`) | ![tcpdump](../../.captures/gns3/tcpdump-auth.png) | **Lab 3 – Mystery Web Server** |
